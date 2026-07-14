@@ -2,6 +2,27 @@
 
 <!-- start custom head snippets -->
 
+<style>
+  .archive__item-title,
+  .archive__item-title:hover {
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
+
+  .term {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0.15em 0.55em;
+    border-radius: 999px;                       /* full pill; use ~0.4em for rounded-rectangle */
+    background: var(--global-border-color);
+    color: var(--global-text-color);
+    vertical-align: 0.12em;                      /* nudge to sit centered on the text line */
+    white-space: nowrap;
+  }
+</style>
+
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>

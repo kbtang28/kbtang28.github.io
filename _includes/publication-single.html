@@ -1,0 +1,8 @@
+<div class="publication-item" style="margin-bottom: 1.2em;">
+  {% if post.authors %}{{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}, {% endif %}"{{ post.title }}," {% if post.venue %}<i>{{ post.venue }}</i> {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}){% endif %}.<br />
+  {% if post.equal_contrib %}<span style="font-size: 0.85em; color: #777;">{{ post.equal_contrib }}</span><br />{% endif %}
+  {% if post.pdfurl %}<a href="{{ post.pdfurl | prepend: base_path }}">[PDF]</a> {% endif %}
+  {% if post.puburl %}<a href="{{ post.puburl }}">[Published]</a>{% endif %}
+  {% if post.preprinturl %}<a href="{{ post.preprinturl }}">[Preprint]</a> {% endif %}
+  {% if post.codeurl %}<a href="{{ post.codeurl }}">[Code]</a> {% endif %}
+</div>

@@ -210,7 +210,7 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        // font-weight: bold;
         text-wrap: wrap;
 
         a {
@@ -440,5 +440,27 @@
     @include breakpoint($medium) {
       display: block;
     }
+  }
+}
+
+@include breakpoint($large) {
+  .greedy-nav .visible-links {
+    @include prefix(2.5 of 12);
+  }
+}
+
+@include breakpoint($x-large) {
+  .greedy-nav .visible-links {
+    @include prefix(2.5 of 12);
+  }
+}
+
+@include breakpoint($large) {
+  .greedy-nav .visible-links .masthead__home-link {
+    display: none;
+  }
+
+  .greedy-nav .visible-links .masthead__home-link + li a {
+    margin-left: 0;
   }
 }

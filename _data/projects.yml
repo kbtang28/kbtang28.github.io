@@ -1,0 +1,32 @@
+- id: contagion
+  title: "The emergent complexity of contagion"
+  description: >
+    Spreading patterns that look like complex contagion can sometimes arise from 
+    simpler contagion rules that vary across a network and are correlated with 
+    community structure. I work on statistical methods to detect and measure this 
+    kind of emergent complexity in contagion data and to understand when an 
+    underlying complex contagion mechanism can be distinguished from hidden 
+    heterogeneity. More broadly, I am interested in when observed spreading 
+    patterns provide reliable evidence about how contagion actually works.
+
+- id: bayesian-hypergraph
+  title: "Hypergraph reconstruction from dynamics"
+  description: >
+    Many complex systems involve interactions among groups of components, 
+    but recovering this structure from noisy dynamical data is difficult. 
+    This project develops a Bayesian extension of sparse, Taylor-based
+    hypergraph inference that quantifies uncertainty and helps determine
+    which higher-order interactions are supported by data. More broadly,
+    I am interested in understanding when higher-order structure is
+    fundamentally identifiable from observations of dynamics.
+
+- id: power-grid
+  title: "Pressure points in decarbonized power grids"
+  description: >
+    Reliability failures in decarbonized power grids with renewable energies 
+    often emerge from interactions across generation, transmission, storage, 
+    and demand rather than from a single bottleneck. This project uses transfer 
+    entropy to infer predictive pathways of stress propagation through 
+    simulated power systems. The goal is to identify nonlocal, scenario-dependent 
+    reliability risks that may not be apparent from the physical network or from 
+    individual component bottlenecks alone.
