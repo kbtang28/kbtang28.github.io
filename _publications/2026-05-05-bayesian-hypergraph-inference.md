@@ -5,6 +5,7 @@ category: manuscripts
 project: bayesian-hypergraph
 authors: "**K. Tang**, V. Srikrishnan, J. Kulik"
 date: 2026-05-05
+pdfurl: "/files/tang_et_al_2026_bayes_this.pdf"
 preprinturl: "https://doi.org/10.48550/arXiv.2605.04218"
 codeurl: 'https://github.com/kbtang28/bayesian-hypergraph-inference'
 ---
